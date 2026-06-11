@@ -16,4 +16,8 @@ public class UserService {
         }
         return null;
     }
+
+    public int getUserCount() {
+        return users.size();
+    }
 }
