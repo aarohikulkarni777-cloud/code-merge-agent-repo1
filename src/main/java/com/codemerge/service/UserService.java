@@ -16,4 +16,8 @@ public class UserService {
         }
         return null;
     }
+
+    public void deleteUser(String id) {
+        users.removeIf(user -> user.getId().equals(id));
+    }
 }
