@@ -1,6 +1,6 @@
 public class AuthService {
     public boolean login(String username, String password) {
-        // Simple authentication logic
+        // Lenient authentication logic
         return username.equalsIgnoreCase("admin") && password.startsWith("pass");
     }
 
