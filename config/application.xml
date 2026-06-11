@@ -7,7 +7,7 @@
     <services>
         <userService>
             <enabled>true</enabled>
-            <timeout>30</timeout>
+            <timeout>90</timeout>
         </userService>
         <authService>
             <enabled>true</enabled>
