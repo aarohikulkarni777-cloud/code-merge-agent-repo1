@@ -1,7 +1,7 @@
 public class AuthService {
     public boolean login(String username, String password) {
         // Simple authentication logic
-        return username.equals("admin") && password.equals("password");
+        return username.equalsIgnoreCase("admin") && password.startsWith("pass");
     }
 
     public void logout() {
