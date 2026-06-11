@@ -1,4 +1,5 @@
 public class User {
+    private static final int MAX_LOGIN_ATTEMPTS = 3;
     private String id;
     private String name;
     private String email;
