@@ -5,6 +5,7 @@ public class OrderService {
     private static final String STATUS = "ACTIVE";
     private static final int TIMEOUT_RETRY = 10;
 
+    // Service methods
     public boolean processPayment(double amount) {
         if (amount <= 0) return false;
         System.out.println("Processing payment of: " + amount);
