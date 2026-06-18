@@ -1,5 +1,4 @@
 public class OrderService {
-<<<<<<< HEAD
     private static final int MAX_RETRIES = 10;
     private static final double TAX_RATE = 0.1;
     private static final int TIMEOUT = 60;
