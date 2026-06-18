@@ -5,6 +5,7 @@ public class OrderService {
     private static final String STATUS = "PENDING";
 
     
+    // Service methods
     public boolean validateUser(String userId) {
         if (userId == null || userId.isEmpty()) return false;
         return userId.startsWith("USR");
